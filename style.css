@@ -1,0 +1,136 @@
+
+
+.wrap {
+	width: 800px;
+	margin: auto;
+	background: green;
+	position: relative;
+}
+
+/*** Navigation section ***/
+
+nav ul {
+	float: right;
+	padding: 20px;
+}
+
+li {
+	display: inline;
+	margin-left: 4px;
+}
+
+li a {
+	color: #505050;
+	font: 13px Arial, sans-serif;
+	padding-left: 7px;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+li:nth-child(4) {
+	background: url(images/apps.png) no-repeat;
+	background-size: 25px 25px;
+	padding: 5px 0 0 35px;
+}
+
+#login {
+	border-radius: 3px;
+	background: rgb(73,134,235);
+	margin: 1px 0 0 0;
+	padding: 7px 13px;
+	font: bold 13px Arial, sans-serif;
+	color: white;
+}
+
+/*** Google Logo section ***/
+img {
+	
+	width: 275px;
+	position: absolute;
+	left: 263px;
+	top: 180px;
+}
+
+/*** Forms including search bar and buttons ***/
+.search {
+	width: 570px;
+	height: 27px;
+	position: absolute;
+	top: 300px;
+	left: 115px;
+	border: 1px solid #D0D0D0;
+	padding: 0;
+}
+
+.search:hover {
+	box-shadow: 0 0 1px 0 #707070;
+}
+
+#search-btn {
+	width: 100px;
+	position: absolute;
+	top: 350px;
+	left: 295px;
+	background: white;
+	padding: 8px;
+}
+
+#lucky-btn {
+	width: 110px;
+	position: absolute;
+	top: 350px;
+	left: 405px;
+	background: white;
+}
+
+#search-btn, #lucky-btn {
+	font: bold 11px Arial, sans-serif;
+	background: rgb(243,243,243);
+	border: 1px solid rgb(219,219,219);
+	padding: 8px;
+	border-radius: 2px;
+}
+
+#search-btn:hover, #lucky-btn:hover {
+	box-shadow: 0 1px 1px 0 rgb(200,200,200);
+}
+
+/*** Footer ***/
+.footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	border: 1px solid rgb(228,228,228);
+	background: rgb(237,237,237);
+	padding: 12px 0;
+}
+
+footer ul {
+	display: inline;
+}
+
+footer ul a {
+	font: 13px Arial, sans-serif;
+	color: #666;
+	margin-left: 15px;
+}
+
+footer ul a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+#ltfooter {
+	float: left;
+	padding-left: 0px;
+}
+
+#rtfooter {
+	float: right;
+	padding-right: 30px;
+}
+
